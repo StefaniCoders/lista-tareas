@@ -1,0 +1,55 @@
+<html>
+<!DOCTYPE html>
+
+<head>
+	<title>To do list</title>
+
+	<style type="text/css">
+	#container {
+		display: table;
+  		margin: 0 auto;
+	}
+
+	.my_tables {
+    border-collapse: separate;
+    border-spacing: 20px;
+	}
+	</style>
+
+</head>
+
+
+<body>
+
+
+<div class="row">
+  
+
+  <div class="col">
+
+  <h1> TO DO LIST </h1>
+  <p><input type="text" class="form-control" id="input_task"> <button type='button' class='btn btn-success' id="add-button" onclick="add_task()">Agregar tarea</button></p>
+
+  <h3>Tareas pendientes</h3>
+
+  <ul class="list-group" id="uncompleted-list">
+  	
+  </ul>
+
+  <h3>Tareas completadas</h3>
+  <ul class="list-group" id="completed-list">
+  	
+  </ul>
+
+  </div>
+ 
+</div>
+
+
+
+</body>
+
+<script src="js/index.js" type="text/javascript"></script>
+
+
+</html>
